@@ -2,3 +2,19 @@
 .input.ng-invalid.ng-touched {
 border: 1px solid red;
 }
+
+
+.login,
+.sign-up{
+background-color: #0079d2;
+border-color: #0079d3;
+color: aliceblue;
+fill: #0079d2;
+border: 1px solid;
+border-radius: 4px;
+text-align: center;
+letter-spacing: 1px;
+text-decoration: none;
+font-size: 12px;
+
+}
