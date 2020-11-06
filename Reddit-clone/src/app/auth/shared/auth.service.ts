@@ -27,5 +27,11 @@ export class AuthService {
 
       return true;
     }));
+  
   }
+    getJwtToken(){
+      return this.localStorage.retrieve('authenticationToken');
+    }
+
+  
 }
