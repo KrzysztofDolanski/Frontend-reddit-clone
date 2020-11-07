@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';  
+import {PostModel} from '../shared/post-model';
+
+
 
 @Component({
   selector: 'app-home',
@@ -7,7 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+
+
+  posts$: Array<PostModel> = [];
+
+  constructor() {
+  
+   }
 
   ngOnInit(): void {
   }

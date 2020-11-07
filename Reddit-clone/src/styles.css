@@ -18,3 +18,12 @@ text-decoration: none;
 font-size: 12px;
 
 }
+
+html{
+    padding: 0;
+    height: 100%;
+}
+body{
+    margin-top: 63px;
+    height: 100%;
+}

@@ -13,6 +13,11 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 import {ToasrtModule} from 'ngx-toastr';
 import { HomeComponent } from './home/home.component';
 import { PostComponent } from './shared/post/post.component';
+import {FontAwsomeModule} from '@fortawsome/angular-fortawsome';
+import { PostTitleComponent } from './shared/post-title/post-title.component';
+import { VoteButtonComponent } from './shared/vote-button/vote-button.component';
+import { SideBarComponent } from './shared/side-bar/side-bar.component';
+import { SubredditSideBarComponent } from './shared/subreddit-side-bar/subreddit-side-bar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +26,11 @@ import { PostComponent } from './shared/post/post.component';
     SignupComponent,
     LoginComponent,
     HomeComponent,
-    PostComponent
+    PostComponent,
+    PostTitleComponent,
+    VoteButtonComponent,
+    SideBarComponent,
+    SubredditSideBarComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +39,8 @@ import { PostComponent } from './shared/post/post.component';
     HttpClientModule,
     NgxWebstorageModule.forRoot(),
     BrowserAnimationsModule,
-    ToasrtModule.forRoot()
+    ToasrtModule.forRoot(),
+    FontAwsomeModule,
   ],  
   providers: [],
   bootstrap: [AppComponent]
