@@ -23,6 +23,7 @@ import { CreatePostComponent } from './subreddit/create-post/create-post.compone
 import { ListSubredditsComponent } from './subreddit/list-subreddits/list-subreddits.component';
 import { EditorModule } from '@tinymce/tinymce-angular';
 import { ViewPostComponent } from './post/view-post/view-post.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { ViewPostComponent } from './post/view-post/view-post.component';
     BrowserAnimationsModule,
     ToasrtModule.forRoot(),
     FontAwsomeModule,
-    EditorModule
+    EditorModule,
+    NgbModule
   ],  
   providers: [],
   bootstrap: [AppComponent]
